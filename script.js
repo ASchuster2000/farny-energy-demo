@@ -28,13 +28,6 @@ document.querySelector('#quote-form')?.addEventListener('submit', (event) => {
   showToast("Démo : le formulaire est prêt, mais l'envoi n'est pas encore connecté.");
 });
 
-document.querySelectorAll('[data-demo-link]').forEach(link => {
-  link.addEventListener('click', event => {
-    event.preventDefault();
-    showToast('Cette page sera complétée avant la mise en production.');
-  });
-});
-
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const revealElements = document.querySelectorAll('.reveal');
