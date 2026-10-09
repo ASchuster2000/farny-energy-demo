@@ -1,32 +1,17 @@
-# Farny Energy — Démo GitHub Pages
+# Farny Energy — Démo GitHub Pages (mise à jour)
 
-Démo statique du futur site institutionnel de Farny Energy.
+Cette version met à jour la démo du site Farny Energy avec :
 
-## Contenu
-- `index.html` : page unique
-- `styles.css` : design responsive
-- `script.js` : navigation mobile, animations et formulaire de démonstration
-- `assets/` : logo et photographies fournies pour le projet
+- le nouveau logo Farny Energy ;
+- l'intégration de l'ensemble des nouvelles photos fournies ;
+- une nouvelle section dédiée à la formation à l'habilitation électrique ;
+- un repositionnement plus large autour du photovoltaïque, des installations électriques et de la formation.
 
-## Lancer localement
-Ouvrir simplement `index.html`, ou utiliser un petit serveur local :
+## Fichiers principaux
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/`
 
-```bash
-python -m http.server 8000
-```
-
-Puis ouvrir `http://localhost:8000`.
-
-## GitHub Pages
-1. Dans **Settings → Pages**, sélectionner **Deploy from a branch**.
-2. Choisir la branche `main` et le dossier `/ (root)`.
-3. Enregistrer.
-
-Le site contient volontairement :
-```html
-<meta name="robots" content="noindex,nofollow">
-```
-pour éviter l'indexation de la démo. À retirer avant la mise en production publique.
-
-## Important
-Le formulaire de devis est uniquement visuel dans cette V1 : aucune donnée n'est envoyée ni stockée.
+## Remarques
+Le formulaire est toujours en mode démonstration. Aucune donnée n'est envoyée ni stockée.
